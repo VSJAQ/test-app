@@ -6,18 +6,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        var arr2 = [];
+        for ( var i = 0; i < 20; i++ ) {
+        arr2.push( Math.round( Math.random() * 100));
+        }
+        document.write( '<br>' + arr2);
       </header>
     </div>
   );
